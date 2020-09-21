@@ -17,8 +17,8 @@ This is photo gallery app which allow you to upload photos and store them perman
 1. Download the ZIP
 2. Extract the folder
 3. Open the folder in your favourite browser
-4. Open the terminal. Move into the project folder and run ~~npm install~~
-5. Run ~~npm start~~
+4. Open the terminal. Move into the project folder and run _npm install_
+5. Run _npm start_
 6. The app will open in the localhost:3000
 7. Start exploring
 
