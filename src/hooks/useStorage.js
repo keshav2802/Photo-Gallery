@@ -7,7 +7,7 @@ const useStorage = (file) => {
   const [url, setUrl] = useState(null);
 
   useEffect(() => {
-    // references
+    // create a reference to where the file will be saved inside the default firebase storage. It basically creates a location for the file to be uploaded.
     const storageRef = appStorage.ref(file.name);
     storageRef.put(file).on('state_changed', (snap) => {
       let percentage = (snap.bytesTransferred / snap.totalBytes * 100);
@@ -20,7 +20,7 @@ const useStorage = (file) => {
     });
   }, [file]);
 
-  return {progress, url, error};
+  return {progress, error, url};
 
 }
 
