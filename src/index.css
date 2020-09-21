@@ -10,6 +10,7 @@
 body {
   font-family: 'Noto Serif', serif;
   color: var(--secondary);
+  background-color: bisque;
 }
 
 .App {
