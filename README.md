@@ -22,3 +22,8 @@ This is photo gallery app which allow you to upload photos and store them perman
 6. The app will open in the localhost:3000
 7. Start exploring
 
+# Screenshots
+
+![](https://github.com/keshav2802/Photo-Gallery/blob/master/screenshots/ss1.png)
+
+![](https://github.com/keshav2802/Photo-Gallery/blob/master/screenshots/ss2.png)
