@@ -19,6 +19,8 @@ firebase.initializeApp(firebaseConfig);
 // Initialize the storage and firestore
 const appStorage = firebase.storage();
 const appFirestore = firebase.firestore();
+// This is a special type of data that firebase uses in its firestore.This returns a function.
+const timestamp = firebase.firestore.FieldValue.serverTimestamp;
 
-export { appStorage, appFirestore };
+export { appStorage, appFirestore, timestamp };
 
